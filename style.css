@@ -234,7 +234,6 @@ footer{
 text-align:center;
 padding:30px;
 }
-
 /* ===================== */
 /* MOBILE RESPONSIVE */
 /* ===================== */
@@ -256,11 +255,17 @@ background:rgba(2,6,23,0.95);
 backdrop-filter:blur(12px);
 }
 
+nav ul{
+flex-wrap:wrap;
+justify-content:center;
+margin-top:10px;
 }
 
 nav ul li{
 margin:10px;
 }
+
+/* HERO */
 
 .hero{
 height:auto;
@@ -301,11 +306,15 @@ width:200px;
 height:200px;
 }
 
+/* BUTTONS */
+
 .buttons{
 flex-direction:column;
 align-items:center;
 gap:10px;
 }
+
+/* SECTIONS */
 
 section{
 padding:70px 20px;
@@ -402,5 +411,6 @@ transform:translateY(-2px);
 box-shadow:0 5px 15px rgba(56,189,248,0.5);
 
 }
+
 
 

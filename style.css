@@ -11,6 +11,7 @@ body{
 background:#020617;
 color:white;
 overflow-x:hidden;
+padding-top:90px;
 }
 
 #particles-js{
@@ -241,14 +242,20 @@ padding:30px;
 @media (max-width:768px){
 
 nav{
-flex-direction:column;
+flex-direction:row;
+justify-content:space-between;
+align-items:center;
 padding:20px;
+
+position:fixed;
+top:0;
+left:0;
+width:100%;
+z-index:1000;
+background:rgba(2,6,23,0.95);
+backdrop-filter:blur(12px);
 }
 
-nav ul{
-flex-wrap:wrap;
-justify-content:center;
-margin-top:10px;
 }
 
 nav ul li{
@@ -395,4 +402,5 @@ transform:translateY(-2px);
 box-shadow:0 5px 15px rgba(56,189,248,0.5);
 
 }
+
 

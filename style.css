@@ -11,6 +11,7 @@ body{
 background:#020617;
 color:white;
 overflow-x:hidden;
+padding-top:80px;
 }
 
 #particles-js{
@@ -27,6 +28,12 @@ align-items:center;
 padding:20px 80px;
 background:rgba(255,255,255,0.05);
 backdrop-filter:blur(12px);
+
+position:fixed;   /* makes navbar stay at top */
+top:0;
+left:0;
+width:100%;
+z-index:1000;
 }
 
 nav ul{
@@ -385,4 +392,5 @@ transition:0.3s;
 background:#0ea5e9;
 transform:translateY(-2px);
 box-shadow:0 5px 15px rgba(56,189,248,0.5);
-} only in this code set a nav bar stady no other changs do in it
+} 
+
